@@ -2,7 +2,7 @@ resource "azurerm_linux_virtual_machine" "worker-vm" {
   name                = "worker-vm"
   resource_group_name = var.resource_group_name
   location            = var.location
-  size                = "Standard_DS1_v2"
+  size                = var.size
   admin_username      = "ubuntu"
 
   network_interface_ids = [
