@@ -27,3 +27,4 @@ resource "azurerm_linux_virtual_machine" "worker-vm" {
     version   = "latest"
   }
 }
+}
