@@ -1,5 +1,5 @@
 resource "azurerm_linux_virtual_machine" "worker-vm" {
-  name                = "-k8s-worker-vm"
+  name                = "k8s-worker-vm"
   resource_group_name = var.resource_group_name
   location            = var.location
   size                = var.size
